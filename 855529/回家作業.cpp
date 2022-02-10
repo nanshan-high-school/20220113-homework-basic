@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
   string ipn[100][3];
-  int a;
+  int a,b;
   int e,z,g=0;
   string j,k,l,m,n,o,y,w;
   while(true){
@@ -67,8 +67,8 @@ int main(){
       for(int f=0;f<=e;f++){
         if(m==ipn[f][0]){
           if(o==ipn[f][1]){
-            ipn[f][1]=w;
             g=0;
+            b=f;
             break;
           }else{
             g=1;
@@ -79,7 +79,7 @@ int main(){
       if(g==0){
         cout<<"新密碼:";
         cin>>n;
-        n=w;
+         ipn[b][1]=n;
         cout<<"修改完成，此後請使用新密碼登入。\n";
       }else{
         cout<<"帳號密碼錯誤，請重新輸入。\n";
