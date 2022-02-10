@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     string users[100][3] = {
-        {"goodjack1", "Goodjack-Is-Handsome!", "小克1"}, 
+        {"goodjack1", "Goodjack1-Is-Handsome!", "小克1"}, 
         {"goodjack2", "Goodjack2-Is-Handsome!", "小克2"}, 
         {"goodjack3", "Goodjack3-Is-Handsome!", "小克3"}
     };
