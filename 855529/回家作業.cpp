@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
   string ipn[100][3];
-  int a,b;
+  int a,b,r;
   int e,z,g=0;
   string j,k,l,m,n,o,y,w;
   while(true){
