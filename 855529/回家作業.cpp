@@ -10,6 +10,7 @@ int main(){
     cout<<"1.註冊\n";
     cout<<"2.登入\n";
     cout<<"3.修改密碼\n";
+    cout<<"4.";
     cout<<"請輸入你想執行的功能:";
     cin>>a;
     if(a==1){
@@ -52,9 +53,26 @@ int main(){
         }
       }
       if(g==0){
-        cout<<"歡迎，";
-        cout<<y;
-        cout<<"。我們希望您帶個披薩來\n";
+        r=rand()%5+1;
+          if(r==1){
+            cout<<"歡迎，";
+            cout<<y;
+            cout<<"。我們希望您帶個披薩來\n";
+          }else if(r==2){
+            cout<<y;
+            cout<<" 跳進了伺服器\n";
+          }else if(r==3){
+            cout<<y;
+            cout<<" 剛剛著陸下來\n";
+          }else if(r==4){
+            cout<<"耶，您成功了，";
+            cout<<y;
+            cout<<"\n";
+          }else if(r==5){
+            cout<<"大家一起歡迎 ";
+            cout<<y;
+            cout<<"\n";
+          }  
       }else{
         cout<<"帳號密碼錯誤，請重新輸入\n";
       }
@@ -84,6 +102,12 @@ int main(){
       }else{
         cout<<"帳號密碼錯誤，請重新輸入。\n";
       }
+    }
+    if(a==4){
+      cout<<"感謝使用!\n";
+      cout<<"Discord使用教學\n";
+      cout<<"https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+      break;
     }
   e++;
   }
