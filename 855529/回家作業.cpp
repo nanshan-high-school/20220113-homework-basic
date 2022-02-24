@@ -54,25 +54,25 @@ int main(){
       }
       if(g==0){
         r=rand()%5+1;
-          if(r==1){
-            cout<<"歡迎，";
-            cout<<y;
-            cout<<"。我們希望您帶個披薩來\n";
-          }else if(r==2){
-            cout<<y;
-            cout<<" 跳進了伺服器\n";
-          }else if(r==3){
-            cout<<y;
-            cout<<" 剛剛著陸下來\n";
-          }else if(r==4){
-            cout<<"耶，您成功了，";
-            cout<<y;
-            cout<<"\n";
-          }else if(r==5){
-            cout<<"大家一起歡迎 ";
-            cout<<y;
-            cout<<"\n";
-          }  
+        if(r==1){
+          cout<<"歡迎，";
+          cout<<y;
+          cout<<"。我們希望您帶個披薩來\n";
+        }else if(r==2){
+          cout<<y;
+          cout<<" 跳進了伺服器\n";
+        }else if(r==3){
+          cout<<y;
+          cout<<" 剛剛著陸下來\n";
+        }else if(r==4){
+          cout<<"耶，您成功了，";
+          cout<<y;
+          cout<<"\n";
+        }else if(r==5){
+          cout<<"大家一起歡迎 ";
+          cout<<y;
+          cout<<"\n";
+        }  
       }else{
         cout<<"帳號密碼錯誤，請重新輸入\n";
       }
