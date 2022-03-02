@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main() {
+string password[20][20];
+while (true){  
+  cout << "帳號:";
+  cin >> password[0][0];
+  cout << "密碼:";
+  cin >> password[0][1];
+  if(password[0][0] == "William855197" ){
+     if( password[0][1] == "william31824"){
+       cout << "歡迎回來William";
+       break;
+     }
+     else{
+       cout << "帳號密碼錯誤，請重新輸入\n";
+     }
+    }
+     else{
+       cout << "帳號密碼錯誤，請重新輸入\n";
+   }
+ }
+}
